@@ -43,7 +43,7 @@ Verify Output Behavior: Verify that the output behavior of the D flip-flop match
 Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
 ```
 **PROGRAM**
-
+```
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 */
 PROGRAM Developed by: Hema Dharshini N
@@ -60,6 +60,7 @@ if(!reset)//compute D flipflop logic here
        Q <= D; 
    
  endmodule
+```
 **RTL LOGIC FOR FLIPFLOPS**
 ![digi ep 8 1](https://github.com/hema-dharshini5/D-FLIPDLOP-NEGEDGE/assets/147117728/6a186983-5dc6-43f0-8484-241ad6e593a2)
 
